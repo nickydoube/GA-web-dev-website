@@ -1,0 +1,441 @@
+
+body {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+
+header .logo {
+	color: #3db8c7;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 200px;
+	cursor: pointer;
+	
+}
+
+header img {
+	height: 200px;
+	margin-right: 120px;
+	margin-top: 60px;
+	float: right;
+}
+.circle-nav {
+	display: none;
+}
+
+header nav {
+  padding: 10px;
+  border-top: 3px solid  #f9e42e;
+  border-bottom: 3px solid #f9e42e;
+  float: left;
+  margin: 0 auto;
+}
+nav a {
+  text-decoration: none;
+
+}
+header nav ul li {
+  display: inline-block;
+  font-size: 24px;
+
+}
+header nav ul li a {
+  color: #f9e42e;
+  padding: 60px;
+}
+form {
+	float: right;
+}
+
+form input {
+	background-color: white;
+	opacity: 0.8;
+	padding: 5px 15px;
+	color: #333;
+	opacity: 0.8;
+	border: 1px solid #333;
+	border-radius: 5px;
+
+}
+form .submit{
+	background-color: #333;
+	opacity: 0.8;
+	padding: 5px 15px;
+	color: white;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+
+
+.main {
+	margin-top: 40px;
+	float: left;
+}
+.main h1 {
+	font-family: 'Playfair Display', serif;
+	color: #333;
+	opacity: 0.6;
+	font-style: italic;
+	font-size: 60px;
+	padding: 10px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: white;
+	float: left;
+	overflow: hidden;
+
+}
+.main h1 em {
+	color: #3db8c7;
+	padding: 20px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+}
+.main .text {
+	margin-top: 40px;
+	float: left;
+
+}
+.text {
+	background: url(../images/leaves.copy.jpg) center center no-repeat;
+	overflow: hidden;
+	padding: 3%;
+
+}
+.text p {
+	background: rgba(255,255,255,.8);
+	margin: 0 auto;
+	padding: 4%;
+	float: right;
+
+}
+
+.main .text p {
+	color: #333;
+	font-family: 'Lora', serif;
+	font-size: 26px;
+	opacity: 0.9;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	float: left;
+
+	}
+
+
+#images img {
+ cursor: pointer;
+	margin-top: 40px;
+	height: 400px;
+	width: 30.5%;
+	margin: 10px;
+	border: 1px solid #333;
+	border-radius: 10px;
+
+}
+
+img:hover{
+
+	background: white;
+	opacity: 0.3;
+	
+	
+
+}
+
+#main-footer {
+   background: #f9e42e;
+   opacity: 0.6;
+	overflow: hidden;
+}
+.box1 {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	float: left;
+	width: 27.3333%;
+	padding: 2% 3%;
+
+}
+.box2{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	float: left;
+	width: 27.3333%;
+	padding: 2% 3%;
+	box-shadow: inset 3px 0 0 rgba(0,0,0,.15);
+
+}
+.box2 em {
+		font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color:#3db8c7 ;
+}
+.box3{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	float: left;
+	width: 27.3333%;
+	padding: 2% 3%;
+		box-shadow: inset 3px 0 0 rgba(0,0,0,.15);
+}
+.box3 em {
+	font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color:#3db8c7 ;
+}
+.box3 form input {
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	padding: 6px 12px;
+	border: 1px solid white;
+	margin: 0 auto;
+}
+.submit {
+	background-color: #333;
+	color: white;
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.box3 form input .email {
+		background: white;
+		padding: 10px;
+		margin: 0 auto;
+
+}
+figure {
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer p {
+	font-family: 'Lora', serif;
+	color: #333;
+	opacity: 0.8;
+	float: right;
+	overflow: hidden;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+body {
+	width: 100%;
+}
+nav {display: none;}
+
+body .circle-nav {
+  height: 40px;
+  width:40px;
+  margin: 20px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
+  overflow: hidden;
+  margin-right: 40px;
+  background-color:#f9e42e;
+
+}
+header .logo {
+	font-size: 9em;
+	margin: 0 auto;
+	margin-left: 40px;
+}
+header img {
+	width: 24%;
+}
+form input {
+	background-color: white;
+	opacity: 0.8;
+	padding: 5px 15px;
+	color: #333;
+	opacity: 0.8;
+	border: 1px solid #333;
+	border-radius: 5px;
+	}
+form .submit{
+	background-color: #333;
+	opacity: 0.8;
+	padding: 5px 15px;
+	color: white;
+	border: 1px solid #333;
+	border-radius: 5px
+}
+.main {
+	width: 100%;
+}
+.main h1 {
+	font-size: 4em;
+	margin-left: 50px;
+}
+.main .text p {
+	font-size: 1.5em;
+}
+
+#images img {
+	width: 45%;
+	height: 390px;
+}
+
+
+#main-footer {
+	width: 100%;
+}
+.box1 {
+	font-size: 0.8em;
+	width: 20%;
+}
+.box1 p {
+	font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	color:#333;
+}
+.box2{
+	font-size: 0.8em;
+	width: 30%;
+}
+.box2 em {
+	font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color:#3db8c7;
+}
+.box3 {
+	font-size: 0.8em;
+	width: 30%;
+}
+.box3 em {
+	font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color:#3db8c7 ;
+}
+.box2 figure {
+	width: 20%;
+	margin: 2px;
+}
+.box3 form input {
+	margin: 0 auto;
+}
+footer p {
+	margin-right: 40px;
+}
+}
+@media only screen and (max-width: 480px){
+
+body {
+	width: 100%;
+}
+nav {
+	display: none;
+}
+header .circle-nav {
+  height: 40px;
+  width:40px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
+  background-color:#f9e42e;
+  margin-right: 20px;
+  margin-top: 90px;
+
+}
+header .logo {
+	font-size: 6em;
+	margin-bottom: 5px;
+	margin-left: 40px;
+}
+form input .email{
+	width: 60%;
+	float: right;
+	margin-top: 20px;
+}
+form .submit {
+	width: 30%;
+	margin-top: 20px;
+}
+.main {
+	width: 100%;
+}
+.main h1 {
+	font-size: 3em;
+	margin-left: 50px;
+}
+.main .text p {
+	font-size: 1em;
+}
+.text {
+	background: url(../images/leaves.copy.jpg) center center no-repeat);
+	width: 100%;
+}
+
+#images img {
+	width: 40%;
+	height: 220px;
+}
+
+#main-footer {
+	width: 100%;
+}
+.box1{
+	font-size: 0.8em;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #333;
+}
+.box2{
+	font-size: 0.8em;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #333;
+}
+.box2 em {
+	font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color:#3db8c7 ;
+
+}
+.box3 {
+	font-size: 0.8em;
+	width: 100%;
+	text-align: center;
+}
+.box2 figure {
+	width: 10%;
+	margin: 5px;
+}
+.box3 form input .email{
+	width: 70%;
+}
+.box3 form input .submit {
+	width: 40%;
+}
+.box3 em {
+	font-size: 1.4em;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color:#3db8c7 ;
+}
+
+
+
+
+
+
+
+
+
+
+
